@@ -13,6 +13,11 @@ function Footer(){
               Transforming education with flexible and high-quality learning
               solutions.
             </p>
+            <h3 className="text-lg font-semibold">LevelUp Academy</h3>
+            <p className="mt-2 text-gray-400">
+              Transforming education with flexible and high-quality learning
+              solutions.
+            </p>
           </div>
           <div>
             <h3 className="text-lg font-semibold">Quick Links</h3>
@@ -31,6 +36,12 @@ function Footer(){
               <a href="#" className="text-gray-400 hover:text-white">LinkedIn</a>
               <a href="#" className="text-gray-400 hover:text-white">GitHub</a>
             </div>
+            <h3 className="text-lg font-semibold">servises</h3>
+            <div className="mt-2 flex justify-center md:justify-start space-x-4">
+              <a href="#" className="text-gray-400 hover:text-white">devolober</a>
+              <a href="#" className="text-gray-400 hover:text-white">proggamar</a>
+              <a href="#" className="text-gray-400 hover:text-white">designer</a>
+            </div>
           </div>
         </div>
         <div className="text-center text-gray-500 mt-6">© 2025 LevelUp Academy. All Rights Reserved.</div>
@@ -40,3 +51,4 @@ function Footer(){
   
   
   export default Footer;
+

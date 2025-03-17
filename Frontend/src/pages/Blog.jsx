@@ -98,11 +98,11 @@ function Blog() {
     <div>
       <Header />
       <div className="min-h-screen bg-gray-100 p-6 py-24 dark:bg-gray-900 text-black dark:text-primryColor">
-        <div className="max-w-6xl mx-auto bg-white p-6 rounded-lg shadow-lg">
+        <div className="max-w-6xl mx-auto bg-white p-6  dark:bg-gray-900 text-black rounded-lg shadow-lg">
           <h1 className="text-3xl font-bold text-center text-primryColor mb-6">Latest Blog Posts</h1>
           <div className="space-y-6">
             {blogPosts.map((post, index) => (
-              <div key={index} className="bg-gray-50 p-4 rounded-lg shadow-md flex flex-col md:flex-row gap-4">
+              <div key={index} className="bg-gray-50 p-4  dark:bg-gray-900 text-white rounded-lg shadow-md flex flex-col md:flex-row gap-4">
                 <img
                   src={post.image}
                   alt={post.title}

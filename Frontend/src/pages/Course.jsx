@@ -41,11 +41,11 @@ const Course = () => {
     <div className=" ">
       <Header />
       <div className="min-h-screen bg-gray-100 p-6 mt-10 dark:bg-gray-900 text-black dark:text-primryColor">
-        <div className="max-w-6xl mx-auto bg-white p-6 rounded-lg shadow-lg">
+        <div className="max-w-6xl mx-auto bg-white p-6 rounded-lg shadow-lg  dark:bg-gray-900 text-white ">
           <h1 className="text-3xl font-bold text-center text-primryColor mb-6">Our Courses</h1>
           <div className="grid md:grid-cols-3 gap-6">
             {courses.map((course, index) => (
-              <div key={index} className="bg-gray-50 p-4 rounded-lg shadow-md">
+              <div key={index} className="bg-gray-50 p-4 rounded-lg shadow-md  dark:bg-gray-900 text-white ">
                 <img
                   src={course.image}
                   alt={course.title}

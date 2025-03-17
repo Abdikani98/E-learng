@@ -58,7 +58,7 @@ const Benefits = () => {
         {benefits.map((benefit) => (
           <div
             key={benefit.id}
-            className="p-6 bg-white  rounded-lg shadow-xl hover:shadow-lg transition border border-gray-200"
+            className="p-6 bg-white   dark:bg-gray-900 text-white  rounded-lg shadow-xl hover:shadow-lg transition border border-gray-200"
           >
             <span className="text-green-600 font-bold text-xl">{benefit.id}</span>
             <h4 className="font-bold text-lg mt-2">{benefit.title}</h4>
